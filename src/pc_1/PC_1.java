@@ -25,7 +25,15 @@ public class PC_1 {
         
         System.out.println("Fruta con posicion 1: " + frutas.get(1));
         
-      
+          frutas.set(0,"Manzana Verde");
+          frutas.remove("Platano");
+        
+         System.out.println("Tamaño: " +frutas.size());
+        
+         for (String Fs:frutas)
+        {
+           System.out.println("LAS FRUTAS SON: " + Fs);
+        }
         
         
     }
