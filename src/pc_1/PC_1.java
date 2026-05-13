@@ -34,8 +34,18 @@ public class PC_1 {
         {
            System.out.println("LAS FRUTAS SON: " + Fs);
         }
+        ArrayList <String> refrescos =new  ArrayList<>();
+        refrescos.add("COCA COLA");
+        refrescos.add("INKA COLA");
+        refrescos.add("GUARANA");
+        refrescos.add("SPRITE");
         
+        refrescos.remove("GUARANA");
         
+         for (String Re:refrescos)
+        {
+           System.out.println("Los refrescos son: " + Re);
+        }
     }
     
 }
