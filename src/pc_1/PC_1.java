@@ -22,11 +22,14 @@ public class PC_1 {
         frutas.add("Manzana");
         frutas.add("Platano");
         frutas.add("Pera");
-        
         System.out.println("Fruta con posicion 1: " + frutas.get(1));
         
-      
         
+        frutas.add("Mango");
+        frutas.add("Arándano");
+        frutas.add("Frambuesa");
+        
+      
         
     }
     
